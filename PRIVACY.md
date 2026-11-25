@@ -228,11 +228,9 @@ Email: fsahaf@yahoo.com
 | Is data encrypted in transit? | Depends on the protocol: TLS/SSH for RDP, SSH, SFTP, FTPS, HTTPS and SQL. SQL Server and SolarWinds certificates are not validated. Telnet and FTP are plain text. |
 | Is data encrypted at rest? | Saved passwords use AES-256-GCM with a PBKDF2-derived key. Other document fields rely on Windows file permissions and disk encryption. |
 | How can users delete their data? | Delete entries in the app, delete the document and `%APPDATA%\Hostwing`, uninstall the app, and remove any exported or backed-up copies. |
-| Privacy policy URL | [Public URL — required for Microsoft Store submission] |
+| Privacy policy URL | `https://fsahaf.github.io/Hostwing/PRIVACY.html` |
 | Contact | fsahaf@yahoo.com |
 
 ---
 
-*Save this file as `PRIVACY.md` in the repository root.*  
-
-*Remember to replace any placeholder URLs with the actual public URL where you host this policy (e.g., `https://github.com/fsahaf/Hostwing/blob/main/PRIVACY.md`).*
+*This policy is published at `https://fsahaf.github.io/Hostwing/PRIVACY.html`.*
